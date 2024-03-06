@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kaboomjs.com/lib/0.5.1/kaboom.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li id="home"><a href=#one>home</a></li>
+            <li id="about"><a href="#two">Road-Map</a></li>
+            <li id="contact"><a href="#three">CodeWithMe</a></li>
+            <li id="work"><a href="#four">Contact Me</a></li>
+            <li id="easter" style="display: none;"><a href="#secret">Easter-Egg</a></li>
+        </ul>
+    </header>
+    <div id="container">
+        <section id="one" style="background-image: url('bgimgfirstpg.jpg');">
+            <div class="left">
+                <div class="name"><p class="hello">Hello,</p><p class="name1">I'm Shaan</p><p class="webdintro">~Web Developer</p></div>
+                <div class="line"></div>
+                <div class="webdev1"><p class="bold" style="font-weight: 500; color: white;">Hello, and welcome to my web profile. I am more than grateful to you for visiting my site to get to know me better.</p><p class="navinfo">For easy navigation through my work, projects, contact refer to the top right corner of the <p class="easteregg" style="font-weight: 600; color: rgb(0,217,255)">Some lucky winners may also find an easter egg! Let's see if you find it! </p></p></div>
+            </div>
+            <div class="right">
+                <img src="possible.png" alt="profile">
+                <audio controls>
+                    <source src="Audio.mp3" type="audio/mpeg">
+    
+                  Your browser does not support the audio element.
+                  </audio>
+            </div>
+        </section>
+        <section id="two" style="background-image: url('bg2.png');">
+            <div class="lefttwo">
+                <div id="roadmap" class="front cardface" style="background-image: url('roadmap.png');"> Road Map to my journey </div>
+                <div class="back"><button style="background-color: transparent; border-radius: 20px; width: 90px;" onclick="confetti()">EasterEgg</button></div>
+                <div class="roadmapcolumn">
+                    <div class="rmp1">Intern at KSOM for Graphic Designing</div>
+                    <div class="rmp2">Coordinator at Kalliope-The Anchoring Society</div>
+                    <div class="rmp3">Intern at HighRadius Pvt. Ltd. as ARPA Developer</div>
+                </div>
+            </div>
+            <div class="righttwo">
+                <div class="container">
+                    <div class="textbox">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="three" style="background-image: url('codebackground.png');">
+            <div class="leftthree">
+                <div class="container3left">
+                    <div class="top">
+                        <div class="red"></div>
+                        <div class="yellow"></div>
+                        <div class="green"></div>
+                    </div>
+                    <div class="bottom" style="color: white;">
+                        <p style="font-size: 35px; color: rgb(0,217,255); font-weight: 900;">This is my Coding Profile</p>
+                        <div class="codeinfo">
+                            <p style="padding-top: 15px;">Java: Java has been one of the first languages I ever practiced on, since our high school continued in +2 and alongside 4 years of collge. Java has provided me with the basics of OOPs. My prior internship at HighRadius was another event where my Java skills were polished.</p>
+                            <p style="padding-top: 15px;color:rgb(0,217,255);">HTML: Web Development has always fascinated me and I look forward to become a Full-Stack developer. Currently working through my frontend skills I have made several projects under HTML. </p>
+                            <p style="padding-top: 15px;">CSS: Frontend Development in today's time requires proper presentation and in order to make that possible I am thorough with CSS. This provides me a vast area to explore creativity and get a responsive website using animations and transitions.</p>
+                            <p style="padding-top: 15px;color: rgb(0,217,255);">JavaScript: The core of a responsive and functioning website. I have several projects under JavaScript and have been implementing it to make my webpages responsive. Creating event listeners and working with Document Object Models has helped me create a faster and much attractive webpages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightthree">
+                <img src="code.png" alt="code">
+                <p class="codeinformation">CODING INFORMATION</p>
+            </div>
+        </section>
+        <section id="four" style="background-image: url('bgforcontact.png'); background-size: cover;">
+            <div class="topfour">
+                <div class="phone"><img src="Phone.png" alt="phone"><a href="phone.html" target="_blank">Phone</a></div>
+                <div class="email"><img src="Mail.png" alt="mail"><a href=mailto:“shaantalhamasood@gmail.com”>Send me an Email</a></div>
+                <div class="github"><img src="github.png" alt="github"><a href="https://github.com/shaanmasood" target="_blank">GitHub</a></div>
+            </div>
+            <div class="bottomfour">
+                <div class="discord"><img src="discord.png" alt="discord"><a href="https://discord.gg/eTpJdhCN" target="_blank">Discord</a></div>
+                <div class="linkedIn"><img src="linkedIn.png" alt="linkedin"><a href="https://www.linkedin.com/in/shaan-masood/" target="_blank">LinkedIn</a></div>
+            </div>
+        </section>
+        <section class="secret" id="secret" style="display: none; height: 100vh;">
+            <div class="leftsecret">
+                <div class="containersecret">
+                    <div class="textinfosecret">
+                        <p style="font-size: 35px; font-weight: 900; color: rgb(17, 47, 30);">Another recent library I've learnt!</p>
+                        <br>
+                        <br>
+                        <p style="font-size: 20px;">Kaboom js is a powerful library for game development and I have been practicing developing games on this platform. The predefined functions make it easy to use. We have predefined functions such as gravity and area for collision which makes the game much more interactive.</p>
+                        <p style="font-size: 30px;color: rgb(24, 75, 46);">I have created a game similar to the classical 'dino' game for chrome! click on Let's Go! to launch the game!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightsecret">
+                <button onclick="confetti()" class="confetti-button" style="background-color: transparent; padding: 20px; border: none;"> Click here if you feel excited! Yay🎉</button>
+                <a href="Easteregg.html" target="_blank">Let's Go!</a>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</html>
